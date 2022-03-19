@@ -1,9 +1,9 @@
 package = 'procinfo'
-version = '0.1.0-1'
+version = '0.1.1-1'
 source  = {
     url    = 'git+https://github.com/a1div0/procinfo.git';
     branch = 'main';
-    tag = '0.1.0'
+    tag = '0.1.1'
 }
 description = {
     summary  = "Utility for getting operating system information on the current process for Tarantool";

@@ -21,7 +21,7 @@ git clone https://github.com/a1div0/procinfo.git
 ```
 * install the `procinfo` module using `tarantoolctl`:
 ```shell
-tarantoolctl rocks install https://raw.githubusercontent.com/a1div0/procinfo/main/procinfo-0.1.0-1.rockspec
+tarantoolctl rocks install https://raw.githubusercontent.com/a1div0/procinfo/main/procinfo-0.1.1-1.rockspec
 ```
 
 ## API

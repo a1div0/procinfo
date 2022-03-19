@@ -1,17 +1,17 @@
 local fio = require('fio')
 
 local function process_id(self)
-    local pid = self._stat:match('RssAnon:\t%s+(%d+) kB\n')
+    local pid = self._stat:match('RssAnon:%s+(%d+) kB\n')
     return tonumber(pid)
 end
 
 local function virtual_mem_size_kB(self)
-    local pid = self._stat:match('VmSize:\t%s+(%d+) kB\n')
+    local pid = self._stat:match('VmSize:%s+(%d+) kB\n')
     return tonumber(pid)
 end
 
 local function ram_mem_size_kB(self)
-    local pid = self._stat:match('RssAnon:\t%s+(%d+) kB\n')
+    local pid = self._stat:match('RssAnon:%s+(%d+) kB\n')
     return tonumber(pid)
 end
 
